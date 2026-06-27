@@ -498,6 +498,7 @@ st.write("")
 st.info(
 """
 Future enhancement: More topics will be added.
+Refer Index page for the currently updated topics.
 """
 )
 
