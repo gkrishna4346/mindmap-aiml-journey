@@ -625,3 +625,34 @@ Used in applications like facial recognition, autonomous vehicles, and medical i
 Popular pre-trained CNN models include VGG16, ResNet, Inception, MobileNet, and EfficientNet.","A Convolutional Neural Network (CNN) is a specialized deep learning architecture designed for image processing and computer vision tasks. Unlike traditional Artificial Neural Networks, CNNs automatically extract spatial features using convolutional layers and reduce dimensionality using pooling layers. This makes them highly effective for image classification, object detection, facial recognition, and medical image analysis. CNNs eliminate the need for manual feature engineering and have become the foundation of modern computer vision applications.","Many beginners think CNN is a completely different technology from ANN. In reality, CNN is a specialized type of Artificial Neural Network designed specifically for processing image and visual data. While a standard ANN connects every neuron to the next layer, a CNN uses convolution and pooling operations to efficiently learn spatial features.","CNN, convolutional neural network, computer vision, image classification, convolution layer, pooling layer, deep learning, tensorflow, keras, pytorch, object detection",Artificial Neural Networks,Natural Language Processing
 35,Natural Language Processing,Artificial Intelligence,Intermediate,NLP enables computers to understand and interact with human language.,"Natural Language Processing (NLP) is a branch of Artificial Intelligence that enables machines to process, analyze, understand, and generate human language.",NLP enables machines to understand human language.,"Chatbots, translation apps, sentiment analysis.",Text _ tokenization _ processing _ language understanding _ output.,"Tokenization, Embedding, Sentiment Analysis, Language Models","Enables text understanding, supports automation",Context understanding can be difficult,"Python, Machine Learning, Deep Learning","Generative AI, Deep Learning, Transformers","Chatbots, sentiment analysis, translation","nltk, spacy, transformers",NLP works with human language,tokens = text.split(),NLP combines linguistics and AI,NLP enables machines to process and understand human language.,NLP ≠ LLM (LLM is one implementation area),"nlp, tokenization, text processing",Convolutional Neural Networks (CNN),Generative AI & LLM
 36,Generative AI & LLM,Artificial Intelligence,Advanced,Generative AI and Large Language Models create new content and enable intelligent human-like interactions.,"Generative AI is a branch of Artificial Intelligence that generates text, images, code, audio, and other content, while Large Language Models (LLMs) are deep learning models trained on massive text datasets to understand and generate language.",Generative AI creates new content instead of only predicting outcomes.,ChatGPT generating explanations or code.,Massive training _ language understanding _ token prediction _ response generation.,"Prompting, Transformer, Tokens, Context Window","Generates human-like content, improves productivity","Computationally expensive, may hallucinate","Deep Learning, NLP","Transformers, Prompt Engineering, AI Agents","Content generation, coding assistants, chatbots","transformers, langchain, openai",Generative AI creates; LLM predicts next tokens,response=model.generate(),Transformer architecture accelerated GenAI growth,Generative AI creates new content using trained models and LLMs.,Generative AI ≠ LLM (LLM is one category under GenAI),"generative ai, llm, transformers, prompt engineering",Natural Language Processing,-
+37,Linear Regression,Machine Learning,Beginner,Linear Regression is one of the simplest and most widely used supervised machine learning algorithms. It predicts a continuous numerical value by establishing a linear relationship between input features and the target variable.,Linear Regression is a supervised learning algorithm that models the relationship between one or more independent variables and a continuous dependent variable using a best-fit straight line.,"Imagine plotting house prices against house sizes. As the size increases, the price generally increases too. Linear Regression draws the best straight line that represents this relationship and uses it to predict prices for new houses.","Predicting house prices based on:
+
+Area
+Number of Bedrooms
+Age of House
+
+Output:
+
+Estimated House Price","1. Collect training data.
+2. Find the best-fit line.
+3. Calculate the relationship between features and target.
+4. Minimize prediction errors.
+5. Use the equation to predict future values.","Supervised learning
+Predicts continuous values
+Best-fit line
+Linear relationship
+Easy to interpret","Simple to understand
+Fast training
+Easy interpretation
+Good baseline model","Assumes linear relationship
+Sensitive to outliers
+Poor performance on complex data",Regression,"Regression, Polynomial Regression, Ridge Regression, Lasso Regression","House price prediction
+Salary prediction
+Sales forecasting
+Demand prediction","Scikit-learn, Statsmodels",Linear Regression fits the best straight line through the data.,"from sklearn.linear_model import LinearRegression
+
+model = LinearRegression()
+
+model.fit(X_train, y_train)","One of the oldest ML algorithms.
+Uses the Least Squares method.
+Output is always continuous.","Linear Regression is a supervised learning algorithm used to predict continuous numerical values by fitting the best straight line between input features and the target variable. It is simple, interpretable, and widely used as a baseline model.","Linear Regression predicts numerical values, whereas Logistic Regression predicts class labels.","linear regression, regression line, best fit line, least squares, prediction",,
