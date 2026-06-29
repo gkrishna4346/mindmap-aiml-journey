@@ -14,7 +14,7 @@ from pathlib import Path
 # -------------------------
 
 st.set_page_config(
-    page_title="Topic Index",
+    page_title="Learning Roadmap",
     layout="wide"
 )
 
@@ -231,10 +231,10 @@ st.markdown(
 """
 <div class='hero-index'>
 
-<h1>📚 Topic Index</h1>
+<h1>📚 Learning Roadmap</h1>
 
 <p>
-Explore all available AIML topics
+Structured learning path from AI Foundations to Advanced Deep Learning.
 </p>
 
 </div>
@@ -279,8 +279,16 @@ if search:
 
 st.subheader("📚 Learning Roadmap")
 
+# -------------------------
+# TOTAL TOPICS
+# -------------------------
+
+total_topics = len(df)
+
 st.caption(
-    f"{len(df)} Topics • {len(modules)} Learning Modules"
+
+f"{total_topics} Topics • {len(modules)} Learning Modules"
+
 )
 
 st.write("")
@@ -315,7 +323,7 @@ for module_no, module in enumerate(modules, start=1):
                 st.session_state["selected_topic"] = row["topic"]
 
                 st.switch_page(
-                    "pages/1_Topic_Details.py"
+                    "pages/2_Topic_Details.py"
                 )
 
 

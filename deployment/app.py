@@ -179,12 +179,12 @@ index_left, index_center, index_right = st.columns(
 with index_center:
 
     if st.button(
-        "📚 Index / Contents",
+        "🗺️ Explore Learning Path",
         use_container_width=True
     ):
 
         st.switch_page(
-            "pages/2_Index.py"
+            "pages/1_Learning_Roadmap.py"
         )
 
 
@@ -245,7 +245,7 @@ if search:
 
 
         st.switch_page(
-            "pages/1_Topic_Details.py"
+            "pages/2_Topic_Details.py"
         )
 
 
@@ -356,7 +356,7 @@ unsafe_allow_html=True
 
 
                 st.switch_page(
-                    "pages/1_Topic_Details.py"
+                    "pages/2_Topic_Details.py"
                 )
 
 
