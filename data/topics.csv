@@ -2807,4 +2807,3 @@ Effective for SVMs.
 Robust to noisy data.","Primarily designed for SVMs.
 Less common in deep learning.
 Not probability-based.","Support Vector Machine, Decision Boundary","Support Vector Machine, Cross-Entropy Loss, Decision Boundary","Text Classification, Image Classification, Fraud Detection","Scikit-learn, TensorFlow",Hinge Loss focuses on maximizing the separation (margin) between different classes.,loss='hinge',Hinge Loss is the default loss function used by linear Support Vector Machines.,Hinge Loss is a margin-based loss function commonly used in Support Vector Machines to maximize the distance between classes and improve classification robustness.,"Cross-Entropy predicts probabilities, whereas Hinge Loss focuses on maximizing the classification margin.","hinge loss, svm loss, margin loss, support vector machine",Categorical Cross-Entropy,-
-181,test,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,Gopikrishna,-,-,-
