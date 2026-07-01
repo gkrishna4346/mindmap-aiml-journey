@@ -59,23 +59,54 @@ df = df.fillna("-")
 
 modules = [
 
-    {"icon":"📘","title":"AI Foundations","start":1,"end":18},
+    {
+        "icon": "📘",
+        "title": "AI Foundations",
+        "start": 1,
+        "end": 18
+    },
 
-    {"icon":"📙","title":"Machine Learning","start":19,"end":61},
+    {
+        "icon": "📗",
+        "title": "Machine Learning",
+        "start": 19,
+        "end": 66
+    },
 
-    {"icon":"📕","title":"Deep Learning","start":62,"end":79},
+    {
+        "icon": "📙",
+        "title": "Deep Learning",
+        "start": 67,
+        "end": 99
+    },
 
-    {"icon":"📒","title":"Natural Language Processing","start":80,"end":87},
+    {
+        "icon": "📕",
+        "title": "Natural Language Processing",
+        "start": 100,
+        "end": 111
+    },
 
-    {"icon":"📓","title":"Generative AI & LLM","start":88,"end":100},
+    {
+        "icon": "📒",
+        "title": "Generative AI & LLM",
+        "start": 112,
+        "end": 132
+    },
 
-    {"icon":"📗","title":"Advanced Statistics","start":101,"end":110},
+    {
+        "icon": "📓",
+        "title": "Responsible AI",
+        "start": 133,
+        "end": 136
+    },
 
-    {"icon":"📔","title":"Advanced Machine Learning","start":111,"end":120},
-
-    {"icon":"📈","title":"Time Series Analysis","start":121,"end":130},
-
-    {"icon":"🚀","title":"Advanced Deep Learning","start":131,"end":140}
+    {
+        "icon": "📔",
+        "title": "Advanced Machine Learning",
+        "start": 137,
+        "end": 180
+    }
 
 ]
 
