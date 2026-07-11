@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 LOGO_PATH = (
     BASE_DIR
     / "images"
-    / "logo_mindmap3.jpg"
+    / "logo_mindmap3.png"
 )
 
 CSV_PATH = (
